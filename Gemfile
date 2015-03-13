@@ -10,6 +10,8 @@ gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 
+# Add stripe for payment processing
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 # Use sqlite3 as the database in dev and test databases only
 gem 'sqlite3', group: [:development, :test]
