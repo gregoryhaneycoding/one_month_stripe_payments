@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Require a specific version of Ruby
 ruby '2.2.0'
 
+# Use figaro to set up ENV variables and for use in secret credentials
+gem 'figaro', '1.1.0'
 
 # Use Bootstrap to improve look and feel
 gem 'bootstrap-sass'
